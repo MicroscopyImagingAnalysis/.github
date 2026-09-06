@@ -1,0 +1,19 @@
+name: Method request
+description: Propose a focused analysis method or workflow improvement.
+title: "[Method]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Microscopy use case
+      description: Describe the modality, dimensions and intended measurement.
+    validations:
+      required: true
+  - type: textarea
+    id: interface
+    attributes:
+      label: Proposed interface
+      description: Describe inputs, pixel-based parameters and expected outputs.
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: Bug report
+description: Report incorrect behaviour or an unexpected result.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Include the method, image dimensionality and observed output.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Provide a small code example and pixel-based configuration values.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include Python, package and operating-system versions.
+    validations:
+      required: true
